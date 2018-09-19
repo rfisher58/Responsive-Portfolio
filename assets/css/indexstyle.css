@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: rgb(73, 184, 184);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 25px 0 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: arial;
+    color: black;
+    border-style: solid;
+    border-color: rgb(73, 184, 184);
+    padding: 25px 25px 25px 25px;
+    border-radius: 25px;
+}
+
+ul li a:hover{
+    background-color: rgb(73, 184, 184);
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+    width: 1000px;
+}
+
+.welcome{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profpic{ 
+    width: 33.33%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ringday{ 
+    width: 33.33%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+    float: left;
+}
+
+.about{
+    color: white;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.abouttext{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    padding: 20px 0 0 30px;
+}
+
+.border{
+    border: 5px solid orange;
+}
+
+.portfolio{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.PF{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+
+.inputbox{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contact{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.h2{
+    display: block;
+    text-align: center;
+    margin: 0 10px 0 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+     /*The body's bg color will be #333 */
+    body {
+      background-color: white;
+    }
+ @media screen and (max-width: 768px) {
+        /* The body's bg color will be #333 */
+    body {
+        background-color: white;
+    }
+ @media screen and (max-width: 980px) {
+      /* The body's bg color will be #333 */
+     body {
+        background-color:white;
+        }
+    }
